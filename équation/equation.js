@@ -15,4 +15,7 @@ if (delta > 0) {
 } else if (delta === 0) {
     let x = -b / (2 * a);
     Alert("L'équation a une solution réelle : x = " + x);
+    }
+    else {
+    Alert("L'équation n'a pas de solution réelle.");
 }

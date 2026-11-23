@@ -5,7 +5,9 @@ DEBUT
             (-b - racine(delta)) / (2 * a)
             ou
             (-b + racine(delta)) / (2 * a)
-        Elseif delta == 0
+        Sinon si delta == 0
             (-b) / (2 * a)
+        Sinon
+            Aucun résultat possible
     Afficher(x)
 FIN
