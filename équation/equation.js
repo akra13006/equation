@@ -11,11 +11,11 @@ let delta = b * b - 4 * a * c;
 if (delta > 0) {
     let x1 = (-b - Math.sqrt(delta)) / (2 * a);
     let x2 = (-b + Math.sqrt(delta)) / (2 * a);
-    Alert("L'équation a deux solutions réelles : x1 = " + x1 + " et x2 = " + x2);
+    alert("L'équation a deux solutions réelles : x1 = " + x1 + " et x2 = " + x2);
 } else if (delta === 0) {
     let x = -b / (2 * a);
-    Alert("L'équation a une solution réelle : x = " + x);
+    alert("L'équation a une solution réelle : x = " + x);
     }
     else {
-    Alert("L'équation n'a pas de solution réelle.");
+    alert("L'équation n'a pas de solution réelle.");
 }
